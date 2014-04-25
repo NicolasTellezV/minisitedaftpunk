@@ -1,0 +1,631 @@
+
+body{
+background-color: black;
+    
+}
+
+
+header{
+    margin: 0 auto;
+    width: 90%;
+}
+section{
+ width: 90%;    
+}
+
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+/*-----PANTALLA 320 px-----------*/
+
+@media screen and (max-width:767px){
+    
+/* ------------ HEADER -------- */  
+header #logo{
+         width: 100%;
+        margin: 0 auto;
+     display: block;
+       }
+    
+   header #logo img{
+    width: 100%;      
+  }   
+    
+ header #imglogo{
+      width: 100%;     
+    margin: 0 auto;
+     margin-top: 5%;
+     display: block;
+ }
+    
+ header #imglogo img{
+    width: 100%;
+ }
+    
+    
+header #redes {
+     width: 90%; 
+    display:block;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}  
+    
+header .redes {
+    display:inline-block;
+    width: 20%;
+    margin-right:12%;
+}
+    
+    
+    header #redes img{
+     width: 100%;
+    border-radius: 10px 0 10px 0;
+    }
+        
+    
+/* ------------ BIOGRAFIA 1 -------- */ 
+    #container1{
+     width:90%;
+   background-color: #019DE0;
+     margin-top: 5%;
+     padding: 1%;
+     margin: 0 auto;
+     border-radius: 15px;
+     text-indent: 3%;
+        margin-bottom: 5%;
+     
+   font-size: 1em;
+ }
+    
+ #head1{
+     display: block;
+     width: 100%;
+}    
+    
+    
+ #nombre1{
+ width:  50%;
+    float: right;
+     background-color: rgba(0,0,0,0.5);
+     border-radius: 15px;
+     margin-top: 1%;
+     margin-right: 3%;
+     display: inline-block;
+}
+
+.nombre1 {
+color: white;
+    padding: 1%;
+    font-size: 1.2em;
+    text-align: center;
+}
+    
+#cara1{
+ width:  40%;
+    float: left;
+    
+    display: block;
+}
+    
+#cara1 img{
+ width:  100%;
+}    
+    
+#info1{
+    width: 100%;
+    text-align: justify;
+}  
+    
+    
+.ltb{
+color: white;
+}  
+    
+    
+#info1{
+display: block;
+    clear: both;
+}    
+    
+  
+  
+/* ------------ BIOGRAFIA 2 -------- */    
+    #container2{
+     width:90%;
+   background-color: #F29400;
+     
+     padding: 1%;
+     margin: 0 auto;
+     border-radius: 15px;
+     text-indent: 3%;
+     
+   font-size: 1em;
+ }
+    
+ #head2{
+     display: block;
+     width: 100%;
+}    
+    
+    
+ #nombre2{
+ width:  50%;
+    float: right;
+     background-color: rgba(0,0,0,0.5);
+     border-radius: 15px;
+     margin-top: 1%;
+     margin-right: 3%;
+     display: inline-block;
+}
+
+.nombre2 {
+color: white;
+    padding: 1%;
+    font-size: 1.2em;
+    text-align: center;
+}
+    
+#cara2{
+ width:  40%;
+    float: left;
+    
+    display: block;
+}
+    
+#cara2 img{
+ width:  100%;
+}    
+    
+#info2{
+    width: 100%;
+    text-align: justify;
+}  
+    
+    
+.ltb{
+color: white;
+}  
+    
+    
+#info2{
+display: block;
+    clear: both;
+}       
+
+    
+/*------------  DISCOGRAFIAS -------*/
+    
+#discografias{
+clear: both;
+    background-color: #808080;
+    margin: 0 auto;
+    border-radius: 15px;  
+    width: 95%;
+    }
+    
+#caja1{
+display:block;
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 2%;
+       
+}    
+    
+.caja{
+    display: inline-block;
+      text-align:center;
+    margin-left: 2%;
+   
+}  
+    
+.nombre3{
+color: black;
+    text-shadow: 3px 3px 1px #fff;
+    text-indent: 2%;
+    margin-top: 2%;
+}
+
+
+/*------------- FOOTER -----------*/
+
+footer{
+   width: 95%;
+   margin: 0 auto;
+   margin-top: 2%;
+}   
+
+#caja1f{
+
+    width: 80%;
+    
+    margin:0 auto;
+} 
+
+#ubc1{
+width: 20%;
+
+display: inline-block;
+
+}
+
+#ubc1 img{
+width: 100%;
+
+}
+
+
+#ubc2{
+width: 50%;
+
+display: inline-block;
+margin: 0 1.5% 1% 1.5%;
+
+
+}
+
+#ubc2 img{
+width: 100%;
+
+}
+
+#ubc3{
+width: 20%;
+;
+display: inline-block;
+
+
+
+}
+
+#ubc3 img{
+width: 100%;
+}
+
+    
+ #caja2f{
+
+    width: 80%;
+    
+    margin:0 auto;
+    margin-bottom: 5%;
+}  
+
+#caja2f .copy1 {
+    width: 90%;
+    margin-right: 0.5%;
+    background-color: #019DE0;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1em;
+
+}  
+
+#caja2f .copy2 {
+    width: 90%;
+    background-color:#F29400;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 0.8em;
+} 
+    
+}
+    
+
+
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+
+/*-----PANTALLA 768px  A   1024px-----------*/
+       
+    
+@media screen and (min-width:768px) and (max-width:1920px){
+	
+ /* ------------ HEADER -------- */  
+    
+    
+ header #logo{
+         width: 90%;
+        margin: 0 auto;
+     display: block;
+       }
+    
+   header #logo img{
+    width: 100%;      
+  }   
+    
+ header #imglogo{
+      width: 100%;     
+    margin: 0 auto;
+     margin-top: 5%;
+     display: block;
+ }
+    
+ header #imglogo img{
+    width: 100%;
+ }
+    
+    
+header #redes {
+     width: 40%; 
+    display:block;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}  
+    
+header .redes {
+    display:inline-block;
+    width: 18%;
+    margin-right:12%;
+}
+    
+    
+    header #redes img{
+     width: 100%;
+    border-radius: 20px 0 20px 0;
+    }
+
+       
+    
+/* ------------ BIOGRAFIA 1 -------- */   
+    
+ #container1{
+     width:45%;
+   background-color: #019DE0;
+     margin-top: 5%;
+     padding: 1%;
+     margin: 0 auto;
+     border-radius: 15px;
+     text-indent: 3%;
+     float: left;
+     margin-left: 2%;
+   font-size: 1.3em;
+ }
+    
+ #head1{
+     display: block;
+     width: 100%;
+}    
+    
+    
+ #nombre1{
+ width:  50%;
+    float: right;
+     background-color: rgba(0,0,0,0.5);
+     border-radius: 15px;
+     margin-top: 1%;
+     margin-right: 3%;
+     display: inline-block;
+}
+
+.nombre1 {
+color: white;
+    padding: 1%;
+    font-size: 1.5em;
+    text-align: center;
+}
+    
+#cara1{
+ width:  40%;
+    float: left;
+    margin-left: 3%;
+    display: block;
+}
+    
+#cara1 img{
+ width:  100%;
+}    
+    
+#info1{
+    width: 100%;
+    text-align: justify;
+}  
+    
+    
+.ltb{
+color: white;
+}  
+    
+    
+#info1{
+display: block;
+    clear: both;
+}    
+/* ------------ BIOGRAFIA 2 -------- */    
+    
+ #container2{
+     width:45%;
+   background-color: #F29400;
+     margin-top: 5%;
+     padding: 1%;
+     margin: 0 auto;
+     border-radius: 15px;
+     text-indent: 3%;
+     float:right;
+     margin-right: 2%;
+     font-size: 1.4em;
+     margin-bottom: 5%;
+     
+     
+ }
+    
+ #head2{
+     display: block;
+     width: 100%;
+}    
+    
+    
+ #nombre2{
+ width:  50%;
+    float: right;
+     background-color: rgba(0,0,0,0.5);
+     border-radius: 15px;
+     margin-top: 1%;
+     margin-right: 3%;
+     margin-bottom: 2%;
+     display: inline-block;
+}
+
+.nombre2 {
+color: white;
+    padding: 1%;
+    font-size: 1.5em;
+    text-align: center;
+}
+    
+#cara2{
+ width:  40%;
+    float: left;
+    margin-left: 3%;
+    display: block;
+}
+    
+#cara2 img{
+ width:  100%;
+}    
+    
+#info2{
+text-align:justify;
+    width: 100%;
+    
+}  
+    
+    
+.ltb{
+color: white;
+}  
+    
+    
+#info2{
+display: block;
+    clear: both;
+}    
+    
+/*------------  DISCOGRAFIAS -------*/
+#discografias{
+clear: both;
+    background-color: #808080;
+    margin: 0 auto;
+    border-radius: 15px;  
+    width: 95%;
+    }
+    
+#caja1{
+display:block;
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 2%;
+    
+   
+}    
+    
+.caja{
+    display: inline-block;
+    margin-right: 1%;
+    text-align:center;
+    margin-left: 2%;
+}  
+    
+.nombre3{
+color: black;
+    text-shadow: 3px 3px 1px #fff;
+    text-indent: 2%;
+    margin-top: 2%;
+}
+
+/*------------- FOOTER -----------*/
+ 
+footer{
+   width: 95%;
+   margin: 0 auto;
+   margin-top: 2%;
+}   
+
+#caja1f{
+
+    width: 80%;
+    
+    margin:0 auto;
+} 
+
+#ubc1{
+width: 20%;
+
+display: inline-block;
+
+}
+
+#ubc1 img{
+width: 100%;
+
+}
+
+
+#ubc2{
+width: 50%;
+
+display: inline-block;
+margin: 0 1.5% 1% 1.5%;
+
+
+}
+
+#ubc2 img{
+width: 100%;
+
+}
+
+#ubc3{
+width: 20%;
+;
+display: inline-block;
+
+
+
+}
+
+#ubc3 img{
+width: 100%;
+}
+
+    
+ #caja2f{
+
+    width: 80%;
+    
+    margin:0 auto;
+    margin-bottom: 5%;
+}  
+
+#caja2f .copy1 {
+    width: 49%;
+        display: inline-block;
+    margin-right: 0.5%;
+    background-color: #019DE0;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 0.8em;
+
+}  
+
+#caja2f .copy2 {
+    width: 49%;
+    
+    display: inline-block;
+    background-color:#F29400;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 0.8em;
+} 
+    
+}
